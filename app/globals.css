@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    .product-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+      }
+      
+      .product-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        transition: transform 0.3s ease; 
+      }
+      
+      .product-card:hover {
+        transform: translateY(-10px);
+      }
+      
+      .product-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      
+      .product-info {
+        flex-grow: 1;
+        margin: 10px 0;
+      }
+      
+      .product-name {
+        font-size: 1.2rem;
+        margin: 10px 0 5px;
+      }
+      
+      .product-description {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 10px;
+      }
+      
+      .product-price {
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 15px;
+      }
+      
+      .add-to-cart-button {
+        padding: 10px 15px;
+        border: none;
+        background-color: #ff7f50;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .h-screen{
+              background: url(images/BACKGROUND.png);
+              background-size: cover;
+              size:100vh;
+              background-position: center;
+            }
+        
